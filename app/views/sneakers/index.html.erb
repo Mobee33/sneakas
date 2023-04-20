@@ -1,0 +1,10 @@
+        <% @sneakers.each do |sneaker| %>
+          <div class="col-lg-4 col-md-6 col-sm-12 mb-4 margin-bottom">
+            <div class="card h-100">
+              <div class="card-body">
+                <h5 class="card-title"><%= sneaker.name %></h5>
+                <p class="card-text"><%= sneaker.description %></p>
+              </div>
+            </div>
+          </div>
+        <% end %>
